@@ -1,0 +1,11 @@
+.columns__link {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.columns__link:hover {
+  cursor: pointer;
+}

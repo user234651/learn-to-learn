@@ -1,0 +1,16 @@
+@import url(__author/columns__author.css);
+@import url(__container/columns__container.css);
+@import url(__content/_copyright/columns__content_copyright.css);
+@import url(__heading/columns__heading.css);
+@import url(__image/columns__image.css);
+@import url(__link/columns__link.css);
+@import url(__link/_flex/columns__link_flex.css);
+
+.columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: start;
+  width: 90%;
+  margin: auto;
+}

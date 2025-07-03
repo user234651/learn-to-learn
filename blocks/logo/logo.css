@@ -1,0 +1,9 @@
+@import url(__place/_footer/logo__place_footer.css);
+@import url(__place/_header/logo__place_header.css);
+
+.logo {
+  width: 228px;
+  height: 32px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
