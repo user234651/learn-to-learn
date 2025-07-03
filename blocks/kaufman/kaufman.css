@@ -1,6 +1,10 @@
+@import url(__image/kaufman__image.css);
+
 .kaufman {
+  position: relative;
   text-align: center;
   background-color: #1f1f1f;
   color: #ffffff;
   padding: 90px 0;
+  overflow: hidden;
 }

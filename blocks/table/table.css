@@ -4,10 +4,12 @@
 @import url(__text/table__text.css);
 
 .table {
+  position: relative;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
   margin: auto;
   width: 1100px;
+  z-index: 1;
 }
