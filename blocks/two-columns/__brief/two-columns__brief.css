@@ -1,8 +1,8 @@
 .two-columns__brief {
   margin: 0;
   width: 175px;
-  color: #2f80ed;
+  color: var(--blue-main);
   line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
+  font-size: var(--font-size-second);
+  font-weight: var(--font-weight-normal);
 }

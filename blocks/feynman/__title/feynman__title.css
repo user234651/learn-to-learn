@@ -2,9 +2,9 @@
   position: relative;
   margin: auto;
   width: 648px;
-  line-height: 1.15;
+  line-height: var(--line-height-second);
   font-size: 120px;
-  font-weight: 600;
+  font-weight: var(--font-weight-bold);
   margin-bottom: 70px;
   z-index: 2;
 }

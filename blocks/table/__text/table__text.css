@@ -1,5 +1,5 @@
 .table__text {
   line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
+  font-size: var(--font-size-second);
+  font-weight: var(--font-weight-normal);
 }

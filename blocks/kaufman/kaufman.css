@@ -3,8 +3,8 @@
 .kaufman {
   position: relative;
   text-align: center;
-  background-color: #1f1f1f;
-  color: #ffffff;
+  background-color: var(--dark-main);
+  color: var(--main-color);
   padding: 90px 0;
   overflow: hidden;
 }

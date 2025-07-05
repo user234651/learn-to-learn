@@ -1,8 +1,8 @@
 .columns__link {
   line-height: 30px;
-  font-size: 18px;
-  font-weight: normal;
-  color: #ffffff;
+  font-size: var(--font-size-second);
+  font-weight: var(--font-weight-normal);
+  color: var(--main-color);
   text-decoration: none;
 }
 

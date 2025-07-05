@@ -19,5 +19,33 @@
 @import url(blocks/oakley/oakley.css);
 @import url(blocks/resources/resources.css);
 
-/* Можно добавить переменные и убрать дополнительный класс "margin" у блоков */
-/* Последнее делать лень */
+/* roboto-regular - latin */
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/roboto-v48-latin-regular.woff2") format("woff2");
+}
+
+/* roboto-600 - latin */
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/roboto-v48-latin-600.woff2") format("woff2");
+}
+
+:root {
+  /* Цвета */
+  --main-color: #ffffff;
+  --second-color: #f2f2f2;
+  --dark-main: #1f1f1f;
+  --blue-main: #2f80ed;
+
+  /* Шрифты */
+  --font-main: "Roboto", "Arial", sans-serif;
+
+  /* Размеры шрифта */
+  --font-weight-bold: 600;
+  --font-weight-normal: normal;
+  --line-height-main: 34px;
+  --line-height-second: 1.15;
+  --font-size-main: 24px;
+  --font-size-second: 18px;
+}
