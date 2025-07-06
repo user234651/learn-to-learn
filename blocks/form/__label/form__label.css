@@ -1,0 +1,5 @@
+.form__label {
+  display: block;
+  line-height: var(--line-height-main);
+  font-size: var(--font-size-main);
+}

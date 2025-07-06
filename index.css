@@ -18,6 +18,8 @@
 @import url(blocks/khan/khan.css);
 @import url(blocks/oakley/oakley.css);
 @import url(blocks/resources/resources.css);
+@import url(blocks/comment/comment.css);
+@import url(blocks/form/form.css);
 
 /* roboto-regular - latin */
 @font-face {
@@ -31,15 +33,30 @@
   src: url("fonts/roboto-v48-latin-600.woff2") format("woff2");
 }
 
+/* inter-regular - latin */
+@font-face {
+  font-family: "Inter";
+  src: url("fonts/inter-v19-latin-regular.woff2") format("woff2");
+}
+
+/* inter-600 - latin */
+@font-face {
+  font-family: "Inter";
+  src: url("fonts/inter-v19-latin-600.woff2") format("woff2");
+}
+
+/* Шрифты не везде корректно отображаются, так что пока что оставил Arial */
+
 :root {
   /* Цвета */
   --main-color: #ffffff;
   --second-color: #f2f2f2;
   --dark-main: #1f1f1f;
   --blue-main: #2f80ed;
+  --gray-main: #808080;
 
   /* Шрифты */
-  --font-main: "Roboto", "Arial", sans-serif;
+  --font-main: "Arial", sans-serif;
 
   /* Размеры шрифта */
   --font-weight-bold: 600;

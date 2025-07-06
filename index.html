@@ -327,6 +327,63 @@
             </a>
           </div>
         </section>
+        <section class="comment margin">
+          <h2 class="section__title">Оцените сайт и получайте больше</h2>
+          <h3 class="section__title section__title_subtitle">
+            Поделитесь своим мнением и подпишитесь на полезные материалы об
+            обучении
+          </h3>
+          <form class="form" action="#" method="POST">
+            <fieldset class="form__fieldset">
+              <label class="form__label" for="name">Имя:</label>
+              <input
+                class="form__text"
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Ваше имя"
+                required
+              />
+              <label class="form__label" for="email">Email:</label>
+              <input
+                class="form__text"
+                type="email"
+                id="email"
+                name="email"
+                placeholder="example@email.com"
+                required
+              />
+            </fieldset>
+            <fieldset class="form__fieldset">
+              <label for="review" class="form__label">
+                Поделитесь своим мнением:
+              </label>
+              <textarea
+                id="review"
+                name="review"
+                class="form__review"
+              ></textarea>
+              <label>
+                <input
+                  class="form__checkbox-hidden"
+                  type="checkbox"
+                  name="consent"
+                  required
+                />
+                <span class="form__checkbox-visible"></span>
+                <span class="form__span-accent">
+                  Я согласен получать письма и на обработку данных
+                </span>
+              </label>
+            </fieldset>
+            <fieldset class="form__fieldset">
+              <div class="form__buttons">
+                <button class="form__button" type="submit">Отправить</button>
+                <button class="form__button" type="reset">Сброс</button>
+              </div>
+            </fieldset>
+          </form>
+        </section>
       </main>
       <footer class="footer">
         <div class="columns">

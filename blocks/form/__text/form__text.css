@@ -1,0 +1,10 @@
+.form__text {
+  border: none;
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 40px;
+  line-height: var(--line-height-main);
+  font-size: var(--font-size-second);
+  font-weight: var(--font-weight-normal);
+}

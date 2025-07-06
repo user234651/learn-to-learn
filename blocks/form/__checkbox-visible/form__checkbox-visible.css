@@ -1,0 +1,25 @@
+.form__checkbox-visible {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #000000;
+}
+
+.form__checkbox-hidden:checked + .form__checkbox-visible {
+  background-image: url(../../../images/tick.svg);
+}
+
+.form__checkbox-hidden:disabled + .form__checkbox-visible {
+  border: 1px solid var(--gray-main);
+}
+
+.form__checkbox-hidden:disabled:checked + .form__checkbox-visible {
+  border: 1px solid var(--gray-main);
+  background-image: url(../../../images/tick-grey.svg);
+}
+
+.form__checkbox-hidden:focus + .form__checkbox-visible {
+  box-shadow: 0 0 5px var(--gray-main);
+}

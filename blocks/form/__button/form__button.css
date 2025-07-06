@@ -1,0 +1,13 @@
+.form__button {
+  width: 49%;
+  height: 60px;
+  border: none;
+  color: var(--main-color);
+  background-color: var(--dark-main);
+  font-size: var(--font-size-main);
+  font-weight: var(--font-weight-normal);
+}
+
+.form__button:hover {
+  background-color: var(--blue-main);
+}

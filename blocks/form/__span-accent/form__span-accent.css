@@ -1,0 +1,5 @@
+.form__span-accent {
+  line-height: var(--line-height-main);
+  font-size: var(--font-size-second);
+  font-weight: var(--font-weight-mormal);
+}

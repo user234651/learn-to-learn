@@ -1,0 +1,15 @@
+@import url(__fieldset/form__fieldset.css);
+@import url(__label/form__label.css);
+@import url(__text/form__text.css);
+@import url(__review/form__review.css);
+@import url(__button/form__button.css);
+@import url(__span-accent/form__span-accent.css);
+@import url(__buttons/form__buttons.css);
+@import url(__checkbox-hidden/form__checkbox-hidden.css);
+@import url(__checkbox-visible/form__checkbox-visible.css);
+
+.form {
+  text-align: left;
+  max-width: 60%;
+  margin: 50px auto 0;
+}
