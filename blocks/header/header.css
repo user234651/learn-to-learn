@@ -5,11 +5,11 @@
 
 .header {
   position: relative;
+  display: flex;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
   background-color: var(--second-color);
-  display: flex;
   flex-direction: column;
   justify-content: center;
   padding-left: 64px;

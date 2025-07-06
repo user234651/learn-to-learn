@@ -2,9 +2,9 @@
 
 .kaufman {
   position: relative;
+  padding: 90px 0;
+  color: var(--main-color);
   text-align: center;
   background-color: var(--dark-main);
-  color: var(--main-color);
-  padding: 90px 0;
   overflow: hidden;
 }

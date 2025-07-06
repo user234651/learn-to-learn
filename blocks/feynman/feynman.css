@@ -5,8 +5,8 @@
 
 .feynman {
   position: relative;
-  text-align: center;
   height: 890px;
+  text-align: center;
   padding-top: 100px;
   background-color: var(--second-color);
 }

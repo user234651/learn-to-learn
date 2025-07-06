@@ -8,9 +8,9 @@
 
 .columns {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  text-align: start;
   width: 90%;
   margin: auto;
+  text-align: start;
+  flex-direction: row;
+  justify-content: space-between;
 }

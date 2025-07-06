@@ -9,7 +9,7 @@
 @import url(__checkbox-visible/form__checkbox-visible.css);
 
 .form {
+  margin: 50px auto 0;
   text-align: left;
   max-width: 60%;
-  margin: 50px auto 0;
 }
