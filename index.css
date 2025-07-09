@@ -21,18 +21,6 @@
 @import url(blocks/comment/comment.css);
 @import url(blocks/form/form.css);
 
-/* roboto-regular - latin */
-@font-face {
-  font-family: "Roboto";
-  src: url("fonts/roboto-v48-latin-regular.woff2") format("woff2");
-}
-
-/* roboto-600 - latin */
-@font-face {
-  font-family: "Roboto";
-  src: url("fonts/roboto-v48-latin-600.woff2") format("woff2");
-}
-
 /* inter-regular - latin */
 @font-face {
   font-family: "Inter";
@@ -45,8 +33,6 @@
   src: url("fonts/inter-v19-latin-600.woff2") format("woff2");
 }
 
-/* Шрифты не везде корректно отображаются, так что пока что оставил Arial */
-
 :root {
   /* Цвета */
   --main-color: #ffffff;
@@ -56,7 +42,7 @@
   --gray-main: #808080;
 
   /* Шрифты */
-  --font-main: "Arial", sans-serif;
+  --font-main: "Inter", "Arial", sans-serif;
 
   /* Размеры шрифта */
   --font-weight-bold: 600;
